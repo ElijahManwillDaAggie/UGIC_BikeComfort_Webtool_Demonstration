@@ -1,0 +1,19 @@
+{
+  "name": "bike-route-planner",
+  "version": "1.0.0",
+  "description": "A web tool for planning comfortable bike routes in Logan, Utah",
+  "main": "app.py",
+  "scripts": {
+    "start": "gunicorn app:app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "gunicorn": "^21.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+} 
